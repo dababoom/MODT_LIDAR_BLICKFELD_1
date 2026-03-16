@@ -152,3 +152,6 @@ Each row represents one confirmed tracked state for one frame.
 - The main limitation is object detection: it can produce noisy clusters and only detects dynamic objects.
 - Tracking is already robust, but nearby objects can still create association ambiguities.
 - Wider evaluation on more traffic scenarios is still needed to tune the hyperparameters more broadly.
+
+## AI Assistance
+Parts of the development and refactoring process were supported by AI-assisted tools, including OpenAI Codex. Final design decisions, implementation choices, validation, and responsibility for the code remain with the author.
