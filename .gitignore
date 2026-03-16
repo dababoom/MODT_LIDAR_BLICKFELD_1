@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files / metadata
+__pycache__/
+.DS_Store
+data/preprocessed/
+data/preprocessed2/
+data/measurements/
+data/motion_labels/
+data/tracks/
+data/tracks_jpda/
+# Distribution / packaging
+.Python
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Keep only part_1 as sample data; ignore the larger raw chunks
+/data/LidarData/raw/192.168.26.26_2020-11-25_20-01-45_frame-2155_part_2/
+/data/LidarData/raw/192.168.26.26_2020-11-25_20-01-45_frame-2414_part_3/
+/data/LidarData/raw/192.168.26.26_2020-11-25_20-01-45_frame-2566_part_4/
