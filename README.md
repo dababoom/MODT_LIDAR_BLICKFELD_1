@@ -1,7 +1,9 @@
 # LiDAR MODT Pipeline
 
 ## Final Results Video
-[Open the final results video](docs/videos/Video_08_results_implemented_modt_pipeline.mp4)
+[![Final results video](docs/images/Video_08_results_implemented_modt_pipeline.mp4.png)]()
+<video src="docs/videos/Video_08_results_implemented_modt_pipeline.mp4" width="320" height="240" controls></video>
+
 
 ## Project Overview
 This repository contains a LiDAR-based perception pipeline for stationary traffic scenes. The pipeline reads raw Blickfeld Cube 1 CSV frames, preprocesses the point clouds, detects dynamic objects, tracks them with JPDA, and evaluates the resulting trajectories.
