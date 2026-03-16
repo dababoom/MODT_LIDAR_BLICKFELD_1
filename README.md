@@ -9,6 +9,8 @@ This repository contains a LiDAR-based perception pipeline for stationary traffi
 
 The implementation is organized as a modular thesis project. The main pipeline entry point is `src/main.py`, while the individual stages remain available as separate modules.
 
+The sensor data used in this pipeline is based on recordings from the Blickfeld Cube 1 LiDAR sensor.
+
 ## Pipeline Overview
 The default pipeline in `src/main.py` executes the following stages:
 
@@ -84,6 +86,8 @@ The main pipeline uses these parameter groups without removing stage-specific en
 ## Input/Output
 ### Input
 Raw LiDAR data is expected as CSV files in `data/LidarData/raw/`, recursively organized in folders. File names must contain a frame id such as `..._frame-1849.csv`.
+
+The provided input data is based on recordings from the Blickfeld Cube 1 sensor.
 
 Expected raw schema:
 
