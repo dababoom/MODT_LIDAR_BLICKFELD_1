@@ -22,6 +22,11 @@ The default pipeline in `src/main.py` executes the following stages:
    Runs JPDA tracking on the measurement files and writes tracked states to `data/tracks/tracks.csv`.
 4. `evaluation`
    Computes summary statistics and plots for the tracking results.
+#### System Overview
+![System_Overview](https://github.com/user-attachments/assets/6c5c7b56-987a-4683-961a-d2bda6b0bc2a)
+#### Point Cloud Processing Overview for One Frame
+<br>
+<img width="6338" height="1709" alt="Pipeline_Overview" src="https://github.com/user-attachments/assets/7c640177-5a90-499b-84a8-d450dfbb2059" />
 
 ## Repository Structure
 ```text
